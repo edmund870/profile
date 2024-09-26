@@ -18,7 +18,7 @@
 #projects .card {
     background-color: var(--secondary-color) !important;
     box-shadow: 0px 8px 56px rgb(15 80 100 / 16%);
-    min-height: 400px;
+    min-height: 200px;
     overflow: hidden;
     border-radius: 1rem;
     border: none !important;
@@ -34,6 +34,7 @@
     -o-object-fit: cover;
     object-fit: cover;
     overflow: hidden;
+    max-height: 100px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border: none !important;
@@ -44,10 +45,18 @@
     border-bottom-right-radius: 1rem;
 }
 
-#projects .card:hover .card-img-top {
-    transform: scale(1.2);
-    transition: all 0.3s ease-out;
+#projects .card .card-head img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: contain; 
 }
+
 
 #projects .card-img-top {
     transition: transform 0.3s;
@@ -61,4 +70,9 @@
 
 #projects .float-end .btn:focus {
     box-shadow: none !important;
+}
+
+#projects .icon-large {
+    display: inline-block;
+    transform: scale(2);
 }
