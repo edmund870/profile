@@ -174,18 +174,18 @@ params:
     # title: "Custom Name"
     items:
       - job: "Risk Analyst, Total Portfolio"
-          company: "GIC Private Limited"
-          companyUrl: "https://www.gic.com.sg/"
-          date: "Jan 2025 - Present"
-          featuredLink:
-            enable: False
-            name: "View the project"
-            url: "https://example.com"
-          info:
-            enable: false
-            content: I worked as a software developer for more than one year in Amazon.
-          content: |
-           - Stay Tuned For Updates
+        company: "GIC Private Limited"
+        companyUrl: "https://www.gic.com.sg/"
+        date: "Jan 2025 - Present"
+        featuredLink:
+          enable: False
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: false
+          content: I worked as a software developer for more than one year in Amazon.
+        content: |
+          - Stay Tuned For Updates
             
       - job: "Quantitative Analyst"
         company: "PIVOT Fintech"
