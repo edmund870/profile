@@ -173,10 +173,23 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Risk Analyst, Total Portfolio"
+          company: "GIC Private Limited"
+          companyUrl: "https://www.gic.com.sg/"
+          date: "Jan 2025 - Present"
+          featuredLink:
+            enable: False
+            name: "View the project"
+            url: "https://example.com"
+          info:
+            enable: false
+            content: I worked as a software developer for more than one year in Amazon.
+          content: |
+            
       - job: "Quantitative Analyst"
         company: "PIVOT Fintech"
         companyUrl: "https://www.pivotfintech.com/"
-        date: "Jan 2024 - present"
+        date: "Jan 2024 - Dec 2024"
         featuredLink:
           enable: False
           name: "View the project"
@@ -185,11 +198,10 @@ params:
           enable: false
           content: I worked as a software developer for more than one year in Amazon.
         content: |
-          - Researched and backtested volatility-based index strategy, achieving 10-year Sharpe ratio of 1.35 vs 1.13 benchmark
-          - Developed Plotly Dash apps for portfolio management, including features for performance tracking, attribution, and rebalancing
-          - Refactored Asset Allocation Algorithm from pandas to polars, boosting execution speed by 10x
-          - Streamlined trade lifecycle management via automated workflows for cash reconciliation, position management, and corporate
-          actions, doubling operational efficiency
+          - Oversaw five independent algorithm-driven portfolios, ensuring alignment with asset allocation objectives 
+          - Developed Plotly Dash applications for portfolio management, featuring performance tracking, returns and risk attribution, and rebalancing, enhancing investment decision making 
+          - Introduced low-risk money market products, resulting in an Assets Under Management (AUM) increase of SGD2M 
+          - Refactored Asset Allocation Algorithm from pandas to polars, boosting execution speed by 10x 
 
       - job: "Associate Analyst / Intern"
         company: "Marina Bay Sands"
@@ -228,6 +240,14 @@ params:
             - Derivatives
             - Asset Pricing
             - Fixed Income Analysis
+            - Programming and Computational Finance
+            - Quantitative Analysis of Financial Markets
+            - Applied Quantitative Research and Methods
+        featuredLink:
+          enable: false
+          name: "Github"
+          url: "https://github.com/edmund870/Quantitative-Finance"
+
       - title: "Bachelor of Accountancy (Accounting Data & Analytics)"
         school:
           name: "Singapore Management University"
