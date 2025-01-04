@@ -185,7 +185,7 @@ params:
             enable: false
             content: I worked as a software developer for more than one year in Amazon.
           content: |
-           - 
+           - Stay Tuned For Updates
             
       - job: "Quantitative Analyst"
         company: "PIVOT Fintech"
