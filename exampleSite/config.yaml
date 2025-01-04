@@ -129,7 +129,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Edmund."
-    subtitle: "Quantitative Analyst at PIVOT Fintech"
+    subtitle: "Risk Analyst at GIC Private Limited"
     content: "Passion for quantitative finance."
     image: "/picture.png"
     bottomImage:
@@ -185,6 +185,7 @@ params:
             enable: false
             content: I worked as a software developer for more than one year in Amazon.
           content: |
+           - 
             
       - job: "Quantitative Analyst"
         company: "PIVOT Fintech"
